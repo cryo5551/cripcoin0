@@ -2,4 +2,5 @@
 
 ### Hosted URL: 
 
-### API used
+
+### API used --> CoinGeko: https://www.coingecko.com/en/api 
