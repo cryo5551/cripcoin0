@@ -1,4 +1,4 @@
-## cripcoin UI 2
+## CripCoin UI 2
 
 ### Hosted URL: 
 
