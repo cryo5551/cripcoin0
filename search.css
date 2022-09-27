@@ -84,3 +84,21 @@ body {
     border-radius: 10px;
     margin: 0.5rem;
 }
+
+
+footer {
+  text-align: center;
+  background-color: #ADE8F4;
+  padding: 0.5rem;
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  /* height: 5rem; */
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  
+}
+
+footer > h3 {
+  padding-top: 0.5rem;
+}
