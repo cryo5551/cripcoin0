@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search | CryptoView</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./search.css" />
+  </head>
+  <body>
+    <nav class="flex_container">
+        <div class="flex_container">
+          <a href="./index.html"><img src="./chainlink.png" alt="Logo" class="logo" /></a>
+          <h1>CryptoView</h1>
+        </div>
+    </nav>
+
+    <section class="sec-2">
+      <form action="" mathod = "GET" class="search-section">
+        <input type="text" placeholder="Search..." name="q" id="search_field" />
+        <input type="submit" value="Search" id="showbtn"/>
+      </form>
+    </section>
+    <hr>
+    <section>
+      <table class="show-details">
+        <thead>
+          <tr>
+            <th class="hh">Logo</th>
+            <th class="hh">Name</th>
+            <th class="hh">Link (More info)</th>
+          </tr>
+        </thead>
+        <tbody id="search_result"></tbody>
+      </table>
+    </section>
+
+    <script src="./search.js"></script>
+  </body>
+</html>
